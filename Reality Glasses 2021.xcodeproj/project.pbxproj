@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B653427273D56D000850063 /* ChooseColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B653426273D56D000850063 /* ChooseColor.swift */; };
+		9B65342B273D7DB200850063 /* Screenshot01PNG.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9B653429273D7DB200850063 /* Screenshot01PNG.PNG */; };
+		9B65342C273D7DB200850063 /* Screenshot02PNG.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9B65342A273D7DB200850063 /* Screenshot02PNG.PNG */; };
 		9BBEF65C2735A0040002C615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEF65B2735A0040002C615 /* AppDelegate.swift */; };
 		9BBEF65E2735A0040002C615 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEF65D2735A0040002C615 /* ContentView.swift */; };
 		9BBEF6622735A0040002C615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBEF6612735A0040002C615 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B653426273D56D000850063 /* ChooseColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColor.swift; sourceTree = "<group>"; };
+		9B653429273D7DB200850063 /* Screenshot01PNG.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01PNG.PNG; sourceTree = "<group>"; };
+		9B65342A273D7DB200850063 /* Screenshot02PNG.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02PNG.PNG; sourceTree = "<group>"; };
 		9BBEF6582735A0040002C615 /* Reality Glasses 2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality Glasses 2021.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBEF65B2735A0040002C615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BBEF65D2735A0040002C615 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +41,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B653428273D7DB200850063 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				9B653429273D7DB200850063 /* Screenshot01PNG.PNG */,
+				9B65342A273D7DB200850063 /* Screenshot02PNG.PNG */,
+			);
+			path = Screenshots;
+			sourceTree = SOURCE_ROOT;
+		};
+		9B65342D273D7E0600850063 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BBEF65D2735A0040002C615 /* ContentView.swift */,
+				9B653426273D56D000850063 /* ChooseColor.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B65342E273D7E1800850063 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9BBEF65B2735A0040002C615 /* AppDelegate.swift */,
+				9BBEF6612735A0040002C615 /* Assets.xcassets */,
+				9BBEF6662735A0040002C615 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		9BBEF64F2735A0040002C615 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +88,11 @@
 		9BBEF65A2735A0040002C615 /* Reality Glasses 2021 */ = {
 			isa = PBXGroup;
 			children = (
-				9BBEF65B2735A0040002C615 /* AppDelegate.swift */,
-				9BBEF65D2735A0040002C615 /* ContentView.swift */,
-				9BBEF6612735A0040002C615 /* Assets.xcassets */,
-				9BBEF6662735A0040002C615 /* LaunchScreen.storyboard */,
+				9B65342E273D7E1800850063 /* App */,
 				9BBEF6692735A0040002C615 /* Info.plist */,
 				9BBEF6632735A0040002C615 /* Preview Content */,
+				9B653428273D7DB200850063 /* Screenshots */,
+				9B65342D273D7E0600850063 /* View */,
 			);
 			path = "Reality Glasses 2021";
 			sourceTree = "<group>";
@@ -131,6 +164,8 @@
 			files = (
 				9BBEF6682735A0040002C615 /* LaunchScreen.storyboard in Resources */,
 				9BBEF6652735A0040002C615 /* Preview Assets.xcassets in Resources */,
+				9B65342C273D7DB200850063 /* Screenshot02PNG.PNG in Resources */,
+				9B65342B273D7DB200850063 /* Screenshot01PNG.PNG in Resources */,
 				9BBEF6622735A0040002C615 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BBEF65E2735A0040002C615 /* ContentView.swift in Sources */,
+				9B653427273D56D000850063 /* ChooseColor.swift in Sources */,
 				9BBEF65C2735A0040002C615 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
